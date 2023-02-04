@@ -9,7 +9,9 @@
 body{
     background-color: #2B2B2B;
 }
-
+nav{
+    width: 1180px;
+}
 .cont1{
     margin-top: 39px;
 }
@@ -49,4 +51,13 @@ body{
     line-height: 140%;
     color: #FFFFFF;
     border: none;
+}
+
+.sec1_main{
+    width: 1050px;
+    padding: 0px;
+}
+
+.content{
+    margin-top: 80px;
 }
