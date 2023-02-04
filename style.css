@@ -7,39 +7,16 @@
 }
 
 body{
+    /* background-color: #2B2B2B; */
+}
+.cont1{
     background-color: #2B2B2B;
 }
-
-.mt-3{
-    color: #FFFFFF;
+.cont1 > p{
+    color: white;
+    margin-left: 10px;
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 600;
-    margin-left: 15px;
     font-size: 20px;
-}
-.container > a{
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 140%;
-    color: #FFFFFF;
-    text-decoration: none;   
-}
-
-.btn{
-    background-color: #A259FF;
-    padding: 0px 30px;
-    border-radius: 20px !important;
-
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 140%;
-    color: #FFFFFF;
-}
-.btn > span{
-    margin-left: 14px;
 }
