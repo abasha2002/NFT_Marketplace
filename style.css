@@ -2,6 +2,11 @@
     font-family: 'Work Sans';
     src: url(./fonts/WorkSans-Regular.ttf);
 }
+@font-face {
+    font-family: 'Space Mono';
+    src: url(./fonts/SpaceMono-Regular.ttf);
+}
+
 *{
     box-sizing: border-box;
 }
@@ -9,55 +14,83 @@
 body{
     background-color: #2B2B2B;
 }
-nav{
-    width: 1180px;
-}
-.cont1{
-    margin-top: 39px;
+
+.cont1 > img{
+    margin-right: 12px;
 }
 .cont1 > p{
-    color: white;
-    margin-left: 10px;
     font-family: 'Work Sans';
     font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
 }
 
-.cont2{
-    margin-top: 39px;
-}
 .cont2 > a{
-    text-decoration: none;
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 140%;
     color: #FFFFFF;
+    text-decoration: none;
 }
 
 .nav_button{
     background-color:#A259FF;
     border-radius: 20px;
     padding: 0px 30px;
-}
-.nav_button > span{
-    margin-left: 10px;
+
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 140%;
     color: #FFFFFF;
-    border: none;
+}
+.nav_button:hover img{
+    filter: invert(0%) sepia(8%) saturate(100%) hue-rotate(123deg) brightness(0%) contrast(107%);
+    transition-duration: .3s;
 }
 
-.sec1_main{
-    width: 1050px;
-    padding: 0px;
+.nav_button > img{
+    margin-right: 12px;
 }
 
-.content{
-    margin-top: 80px;
+.content > div > h1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 67px;
+    line-height: 110%;
+    color: #FFFFFF;
+}
+.content > div > p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+
+.content1 > img{
+    width: 100%;
+}
+
+.sec1_button{
+    background-color:#A259FF;
+    padding: 19px 50px;
+    border-radius: 20px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.sec1_button > img{
+    margin-right: 12px;
 }
