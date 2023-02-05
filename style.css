@@ -49,10 +49,6 @@ body{
     line-height: 140%;
     color: #FFFFFF;
 }
-.nav_button:hover img{
-    filter: invert(0%) sepia(8%) saturate(100%) hue-rotate(123deg) brightness(0%) contrast(107%);
-    transition-duration: .3s;
-}
 
 .nav_button > img{
     margin-right: 12px;
@@ -65,6 +61,17 @@ body{
     font-size: 67px;
     line-height: 110%;
     color: #FFFFFF;
+}
+@media only screen and (max-width: 391px) {
+    h1{
+        font-size: 27px !important;
+    }
+    .cont2{
+        display: none !important;
+    }
+    .content > div > p{
+        font-size: 16px !important;
+    }
 }
 .content > div > p{
     font-family: 'Work Sans';
