@@ -40,6 +40,18 @@ body{
     .burger{
         display: inline-block !important;
     }
+    .section2{
+        margin-top: 80px !important;
+    }
+    .sec2_header h3{
+        font-size: 28px !important;
+    }
+    .sec2_header p{
+        font-size: 16px !important;
+    }
+    .mushrooms, .people{
+        display: none !important;
+    }
 }
 
 
@@ -172,9 +184,7 @@ body{
     line-height: 140%;
     color: #FFFFFF;
 }
-/* .section1_button{
-    width: 100%;
-} */
+
 .section1_button > img{
     margin-right: 12px;
 }
@@ -205,4 +215,64 @@ body{
 
 .section2{
     margin-top: 160px;
+}
+
+.sec2_header h3{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 120%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.sec2_header p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.amount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background: #A259FF;
+    border-radius: 20px;
+
+}
+.amount > h5{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.image_footer > div > h5{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+.image_footer > div > p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-top: 10px;
 }
