@@ -55,8 +55,37 @@ body{
     .sec3_header p{
         font-size: 16px !important;
     }
+    .sec3_button{
+        display: none !important;
+    }
     .mushrooms, .people{
         display: none !important;
+    }
+    .profiles{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .profile_name{
+        text-align: left !important;
+    }
+    .prof_img{
+        width: 60px;
+        height: 60px;
+        margin-right: 20px;
+    }
+    .prof{
+        display: none !important;
+    }
+    .prof1{
+        margin-top: 20px !important;
+    }
+    .sec3_button1{
+        display: inline !important;
+        margin-top: 40px;
+    }
+    .sec3_button1 > button{
+        width: 100%;
     }
 }
 
@@ -305,8 +334,9 @@ body{
     color: #FFFFFF;
 }
 
-.sec3_button{
+.sec3_button button{
     margin-top: 31px;
+    margin-left: auto;
     border: 2px solid #A259FF;
     border-radius: 20px;
     padding: 19px 50px;
@@ -323,6 +353,8 @@ body{
     padding: 20px;
     background: #3B3B3B;
     border-radius: 20px;
+    text-align: center;
+    position: relative;
 }
 .number{
     width: 30px;
@@ -333,6 +365,9 @@ body{
     justify-content: center;
     align-items: center;
     margin-right: 10px;
+    position: absolute;
+    left: 20px;
+    top: 18px;
 }
 .number span{
     font-family: 'Space Mono';
@@ -342,10 +377,7 @@ body{
     line-height: 140%;
     color: #858584;
 }
-
 .profile_name{
-    display: flex;
-    justify-content: center;
     margin-top: 20px;
 }
 .profile_name h5{
@@ -365,7 +397,7 @@ body{
     font-size: 16px;
     line-height: 140%;
     color: #FFFFFF;
-    text-align: right;
+    margin-bottom: 0px;
 }
 .profile_info > p > span{
     font-family: 'Work Sans';
@@ -375,4 +407,21 @@ body{
     line-height: 140%;
     color: #858584;
     margin-right: 10px;
+}
+.sec3_button1{
+    display: none;
+}
+.sec3_button1 button{
+    margin-top: 31px;
+    margin-left: auto;
+    border: 2px solid #A259FF;
+    border-radius: 20px;
+    padding: 19px 50px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
 }
