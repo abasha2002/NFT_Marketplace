@@ -49,6 +49,12 @@ body{
     .sec2_header p{
         font-size: 16px !important;
     }
+    .sec3_header h3{
+        font-size: 28px !important;
+    }
+    .sec3_header p{
+        font-size: 16px !important;
+    }
     .mushrooms, .people{
         display: none !important;
     }
@@ -275,4 +281,98 @@ body{
     line-height: 140%;
     color: #FFFFFF;
     margin-top: 10px;
+}
+.section3{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.sec3_header h3{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 120%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.sec3_header p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.sec3_button{
+    margin-top: 31px;
+    border: 2px solid #A259FF;
+    border-radius: 20px;
+    padding: 19px 50px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.profiles{
+    padding: 20px;
+    background: #3B3B3B;
+    border-radius: 20px;
+}
+.number{
+    width: 30px;
+    height: 30px;
+    background: #2B2B2B;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.number span{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #858584;
+}
+
+.profile_name{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.profile_name h5{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.profile_info > p{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    text-align: right;
+}
+.profile_info > p > span{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #858584;
+    margin-right: 10px;
 }
