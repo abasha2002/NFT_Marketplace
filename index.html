@@ -11,40 +11,42 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="container">
-        <nav class="row mt-3">
-            <div class="cont1 col-md-6 col-sm-6 d-flex justify-content-between">
-                <div class="d-flex">
-                    <img src="./images/Storefront.svg" alt="storefront">
-                    <p class="mt-3">NFT Marketplace</p>
+    <header class="container-fluid">
+        <nav class="container mt-3">
+            <div class="row">
+                <div class="cont1 col-md-6 col-sm-6 d-flex justify-content-between">
+                    <div class="d-flex">
+                        <img src="./images/Storefront.svg" alt="storefront">
+                        <p class="mt-3">NFT Marketplace</p>
+                    </div>
+                    <div class="burger mt-3" style="display: none;">
+                        <img src="./images/Burger Menu.svg" alt="burger menu">
+                    </div>
                 </div>
-                <div class="burger mt-3" style="display: none;">
-                    <img src="./images/Burger Menu.svg" alt="burger menu">
+                <div class="cont2 col-md-6 col-sm-12 d-flex justify-content-around col-md-6 col-sm-12 p-1">
+                    <a href="#" class="mt-3">Marketplace</a>
+                    <a href="#" class="mt-3">Rankings</a>
+                    <a href="#" class="mt-3">Connect a wallet</a>
+                    <button class="btn nav_button d-flex justify-content-center align-items-center"><img src="./images/User.svg" alt="user icon">Sign Up</button>
                 </div>
-            </div>
-            <div class="cont2 col-md-6 col-sm-12 d-flex justify-content-around col-md-6 col-sm-12 p-1">
-                <a href="#" class="mt-3">Marketplace</a>
-                <a href="#" class="mt-3">Rankings</a>
-                <a href="#" class="mt-3">Connect a wallet</a>
-                <button class="btn nav_button d-flex justify-content-center align-items-center"><img src="./images/User.svg" alt="user icon">Sign Up</button>
             </div>
         </nav>
     </header>
 
-    <section class="section1">
+    <section class="section1 container-fluid">
         <div class="container mt-5">
             <div class="row">
-                <div class="content col-md-6 col-ms-12">
+                <div class="content col-md-6 col-sm-12">
                     <div class="col-md-12 col-sm-12 mt-3">
                         <h1>Discover digital art & Collect NFTs</h1>
                     </div>
-                    <div class="col-md-12 col-ms-12">
+                    <div class="col-md-12 col-sm-12">
                         <p>NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more than 20k NFT artists.</p>
                     </div>
-                    <div class="button_div col-md-12 col-ms-push-12">
+                    <div class="button_div col-md-12 col-sm-push-12">
                         <button class="btn section1_button d-flex justify-content-center align-items-center"><img src="./images/RocketLaunch.svg" alt="rocket icon">Get Started</button>
                     </div>
-                    <div class="followers col-md-12 col-ms-12 d-flex justify-content-between">
+                    <div class="followers col-md-12 col-sm-12 d-flex justify-content-between">
                         <div>
                             <h4>240K+</h4>
                             <p>Total Sale</p>
@@ -60,7 +62,7 @@
                     </div>
                 </div>
                 
-                <div class="content1 col-md-6 col-ms-pull-12 mt-3">
+                <div class="content1 col-md-6 col-sm-12 mt-3">
                     <div class="giff">
                         <img src="./images/heroanimationtransparentbck-2.gif" alt="image of space">
                     </div>
@@ -68,7 +70,7 @@
                         <div class="button_div1">
                             <button class="btn section1_button d-flex justify-content-center align-items-center"><img src="./images/RocketLaunch.svg" alt="rocket icon">Get Started</button>
                         </div>
-                        <div class="followers_mobile col-md-12 col-ms-12 d-flex justify-content-between">
+                        <div class="followers_mobile col-md-12 col-sm-12 d-flex justify-content-between">
                             <div>
                                 <h4>240K+</h4>
                                 <p>Total Sale</p>
@@ -90,89 +92,86 @@
 
     <section class="container-fluid section2">
         <div class="container">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="sec2_header col-md-12 col-ms-12">
-                        <h3>Trending Collection</h3>
-                        <p>Checkout our weekly updated trending collection.</p>
-                    </div>
+            <div class="row">
+                <div class="sec2_header col-md-12 col-sm-12">
+                    <h3>Trending Collection</h3>
+                    <p>Checkout our weekly updated trending collection.</p>
                 </div>
             </div>
 
-            <div class="container-fluid">
-                <div class="row mt-5">
-                    <div class="col-md-4 col-ms-12">
+
+            <div class="row mt-5">
+                <div class="col-md-4 col-sm-12">
+                    <div>
+                        <img src="./images/dog.png" alt="image of dog">
+                    </div>
+                    <div class="d-flex mt-3">
                         <div>
-                            <img src="./images/dog.png" alt="image of dog">
+                            <img style="margin-right: 15px;" src="./images/cat.png" alt="image of cat">
                         </div>
-                        <div class="d-flex" style="gap: 15px; margin-top: 15px;">
-                            <div>
-                                <img src="./images/cat.png" alt="image of cat">
-                            </div>
-                            <div>
-                                <img src="./images/bear.png" alt="image of bear">
-                            </div>
-                            <div class="amount">
-                                <h5>1025+</h5>
-                            </div>
+                        <div>
+                            <img style="margin-right: 15px;" src="./images/bear.png" alt="image of bear">
                         </div>
-                        <div class="image_footer">
-                            <div>
-                                <h5>DSGN Animals</h5>
-                            </div>
-                            <div>
-                                <p><img style="margin-right: 12px;" src="./images/fox.png" alt="image of fox">MrFox</p>
-                            </div>
+                        <div class="amount">
+                            <h5>1025+</h5>
                         </div>
                     </div>
-                    
-                    <div class="mushrooms col-md-4 col-ms-12">
+                    <div class="image_footer">
                         <div>
-                            <img src="./images/main_mushroom.png" alt="image of mushroom">
+                            <h5>DSGN Animals</h5>
                         </div>
-                        <div class="d-flex" style="gap: 15px; margin-top: 15px;">
-                            <div>
-                                <img src="./images/secondary_mashroom1.png" alt="image of mashroom">
-                            </div>
-                            <div>
-                                <img src="./images/secondary_mashroom2.png" alt="image of mashroom">
-                            </div>
-                            <div class="amount">
-                                <h5>1025+</h5>
-                            </div>
-                        </div>
-                        <div class="image_footer">
-                            <div>
-                                <h5>Magic Mashrooms</h5>
-                            </div>
-                            <div>
-                                <p><img style="margin-right: 12px;" src="./images/person_avatar.png" alt="person avatar">Shroomie</p>
-                            </div>
+                        <div>
+                            <p><img style="margin-right: 12px;" src="./images/fox.png" alt="image of fox">MrFox</p>
                         </div>
                     </div>
-    
-                    <div class="people col-md-4 col-ms-12">
+                </div>
+                
+                <div class="mushrooms col-md-4 col-sm-12">
+                    <div>
+                        <img src="./images/main_mushroom.png" alt="image of mushroom">
+                    </div>
+                    <div class="d-flex" style="gap: 15px; margin-top: 15px;">
                         <div>
-                            <img src="./images/main_person.png" alt="image of person">
+                            <img src="./images/secondary_mashroom1.png" alt="image of mashroom">
                         </div>
-                        <div class="d-flex" style="gap: 15px; margin-top: 15px;">
-                            <div>
-                                <img src="./images/secondary_person1.png" alt="image of person">
-                            </div>
-                            <div>
-                                <img src="./images/secondary_person2.png" alt="image of person">
-                            </div>
-                            <div class="amount">
-                                <h5>1025+</h5>
-                            </div>
+                        <div>
+                            <img src="./images/secondary_mashroom2.png" alt="image of mashroom">
                         </div>
-                        <div class="image_footer">
-                            <div>
-                                <h5>Magic Mashrooms</h5>
-                            </div>
-                            <div>
-                                <p><img style="margin-right: 12px;" src="./images/robot_avatar.png" alt="robot avatar">Shroomie</p>
-                            </div>
+                        <div class="amount">
+                            <h5>1025+</h5>
+                        </div>
+                    </div>
+                    <div class="image_footer">
+                        <div>
+                            <h5>Magic Mashrooms</h5>
+                        </div>
+                        <div>
+                            <p><img style="margin-right: 12px;" src="./images/person_avatar.png" alt="person avatar">Shroomie</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="people col-md-4 col-sm-12">
+                    <div>
+                        <img src="./images/main_person.png" alt="image of person">
+                    </div>
+                    <div class="d-flex" style="gap: 15px; margin-top: 15px;">
+                        <div>
+                            <img src="./images/secondary_person1.png" alt="image of person">
+                        </div>
+                        <div>
+                            <img src="./images/secondary_person2.png" alt="image of person">
+                        </div>
+                        <div class="amount">
+                            <h5>1025+</h5>
+                        </div>
+                    </div>
+                    <div class="image_footer">
+                        <div>
+                            <h5>Magic Mashrooms</h5>
+                        </div>
+                        <div>
+                            <p><img style="margin-right: 12px;" src="./images/robot_avatar.png" alt="robot avatar">Shroomie</p>
                         </div>
                     </div>
                 </div>
@@ -182,104 +181,101 @@
 
     <section class="section3 container-fluid">
         <div class="container">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="sec3_header col-md-8 col-ms-12">
-                        <h3>Top creators</h3>
-                        <p>Checkout Top Rated Creators on the NFT Marketplace</p>
+            <div class="row">
+                <div class="sec3_header col-md-8 col-sm-12">
+                    <h3>Top creators</h3>
+                    <p>Checkout Top Rated Creators on the NFT Marketplace</p>
+                </div>
+                <div class="col-md-4 sec3_button">
+                    <button class="btn d-flex justify-content-center align-items-center"><img style="margin-right: 12px;" src="./images/RocketLaunch.svg" alt="rocket">View Rankings</button>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-md-3 col-sm-12">
+                    <div class="profiles prof1">
+                        <div class="d-flex justify-content-center">
+                            <div class="number">
+                                <span>1</span>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <img class="prof_img" src="./images/profile_picture1.png" alt="profile picture">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="profile_name justify-content-center">
+                                <h5>Keepitreal</h5>
+                            </div>
+                            <div class="profile_info justify-content-center">
+                                <p><span>Total Sales:</span>34.53 ETH</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-4 sec3_button">
-                        <button class="btn d-flex justify-content-center align-items-center"><img style="margin-right: 12px;" src="./images/RocketLaunch.svg" alt="rocket">View Rankings</button>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <div class="profiles prof1">
+                        <div class="d-flex justify-content-center">
+                            <div class="number">
+                                <span>2</span>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <img class="prof_img" src="./images/profile_picture2.png" alt="profile picture">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="profile_name justify-content-center">
+                                <h5>DigiLab</h5>
+                            </div>
+                            <div class="profile_info justify-content-center">
+                                <p><span>Total Sales:</span>34.53 ETH</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <div class="profiles prof1">
+                        <div class="d-flex justify-content-center">
+                            <div class="number">
+                                <span>3</span>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <img class="prof_img" src="./images/profile_picture3.png" alt="profile picture">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="profile_name justify-content-center">
+                                <h5>GravityOne</h5>
+                            </div>
+                            <div class="profile_info justify-content-center">
+                                <p><span>Total Sales:</span>34.53 ETH</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <div class="profiles prof1">
+                        <div class="d-flex justify-content-center">
+                            <div class="number">
+                                <span>4</span>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <img class="prof_img" src="./images/profile_picture4.png" alt="profile picture">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="profile_name justify-content-center">
+                                <h5>Juanie</h5>
+                            </div>
+                            <div class="profile_info justify-content-center">
+                                <p><span>Total Sales:</span>34.53 ETH</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="container-fluid">
-                <div class="row mt-5">
-                    <div class="col-md-3 col-ms-12">
-                        <div class="profiles prof1">
-                            <div class="d-flex justify-content-center">
-                                <div class="number">
-                                    <span>1</span>
-                                </div>
-                                <div class="d-flex justify-content-center">
-                                    <img class="prof_img" src="./images/profile_picture1.png" alt="profile picture">
-                                </div>
-                            </div>
-                            <div>
-                                <div class="profile_name justify-content-center">
-                                    <h5>Keepitreal</h5>
-                                </div>
-                                <div class="profile_info justify-content-center">
-                                    <p><span>Total Sales:</span>34.53 ETH</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-ms-12">
-                        <div class="profiles prof1">
-                            <div class="d-flex justify-content-center">
-                                <div class="number">
-                                    <span>2</span>
-                                </div>
-                                <div class="d-flex justify-content-center">
-                                    <img class="prof_img" src="./images/profile_picture2.png" alt="profile picture">
-                                </div>
-                            </div>
-                            <div>
-                                <div class="profile_name justify-content-center">
-                                    <h5>DigiLab</h5>
-                                </div>
-                                <div class="profile_info justify-content-center">
-                                    <p><span>Total Sales:</span>34.53 ETH</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-ms-12">
-                        <div class="profiles prof1">
-                            <div class="d-flex justify-content-center">
-                                <div class="number">
-                                    <span>3</span>
-                                </div>
-                                <div class="d-flex justify-content-center">
-                                    <img class="prof_img" src="./images/profile_picture3.png" alt="profile picture">
-                                </div>
-                            </div>
-                            <div>
-                                <div class="profile_name justify-content-center">
-                                    <h5>GravityOne</h5>
-                                </div>
-                                <div class="profile_info justify-content-center">
-                                    <p><span>Total Sales:</span>34.53 ETH</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-ms-12">
-                        <div class="profiles prof1">
-                            <div class="d-flex justify-content-center">
-                                <div class="number">
-                                    <span>4</span>
-                                </div>
-                                <div class="d-flex justify-content-center">
-                                    <img class="prof_img" src="./images/profile_picture4.png" alt="profile picture">
-                                </div>
-                            </div>
-                            <div>
-                                <div class="profile_name justify-content-center">
-                                    <h5>Juanie</h5>
-                                </div>
-                                <div class="profile_info justify-content-center">
-                                    <p><span>Total Sales:</span>34.53 ETH</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
                 <div class="row">
-                    <div class="col-md-3 col-ms-12">
+                    <div class="col-md-3 col-sm-12">
                         <div class="profiles prof1 mt-5">
                             <div class="d-flex justify-content-center">
                                 <div class="number">
@@ -299,7 +295,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-ms-12 prof">
+                    <div class="col-md-3 col-sm-12 prof">
                         <div class="profiles mt-5">
                             <div class="d-flex justify-content-center">
                                 <div class="number">
@@ -315,7 +311,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-ms-12 prof">
+                    <div class="col-md-3 col-sm-12 prof">
                         <div class="profiles mt-5">
                             <div class="d-flex justify-content-center">
                                 <div class="number">
@@ -331,7 +327,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-ms-12 prof">
+                    <div class="col-md-3 col-sm-12 prof">
                         <div class="profiles mt-5">
                             <div class="d-flex justify-content-center">
                                 <div class="number">
@@ -350,7 +346,7 @@
                 </div>
 
                 <div class="row mt-5 prof">
-                    <div class="col-md-3 col-ms-12">
+                    <div class="col-md-3 col-sm-12">
                         <div class="profiles">
                             <div class="d-flex justify-content-center">
                                 <div class="number">
@@ -366,7 +362,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-ms-12">
+                    <div class="col-md-3 col-sm-12">
                         <div class="profiles">
                             <div class="d-flex justify-content-center">
                                 <div class="number">
@@ -382,7 +378,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-ms-12">
+                    <div class="col-md-3 col-sm-12">
                         <div class="profiles">
                             <div class="d-flex justify-content-center">
                                 <div class="number">
@@ -398,7 +394,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-ms-12">
+                    <div class="col-md-3 col-sm-12">
                         <div class="profiles">
                             <div class="d-flex justify-content-center">
                                 <div class="number">
@@ -422,5 +418,357 @@
             </div>
         </div>
     </section>
+
+    <section class="section4 container-fluid">
+        <div class="container">
+
+            <div class="row">
+                <div class="sec4_title col-12">
+                    <h3>Browse Categories</h3>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3 col-6">
+                    <div class="category1">
+                        <div>
+                            <img class="bg_image" src="./images/whales.png" alt="image of whales">
+                            <img class="front_image" src="./images/PaintBrush.png" alt="image of paintbrush">
+                        </div>
+                        <div class="description">
+                            <h5>art</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-6">
+                    <div class="category1">
+                        <div>
+                            <img class="bg_image" src="./images/monkey.png" alt="image of monkey">
+                            <img class="front_image" src="./images/Swatches.png" alt="image of swatches">
+                        </div>
+                        <div class="description">
+                            <h5>colectibles</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-6">
+                    <div class="category1">
+                        <div>
+                            <img class="bg_image" src="./images/guitar.png" alt="image of guitar">
+                            <img class="front_image" src="./images/MusicNotes.png" alt="image of musical note">
+                        </div>
+                        <div class="description">
+                            <h5>music</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-6">
+                    <div class="category1">
+                        <div style="text-align: center;">
+                            <img class="bg_image" src="./images/old_man.png" alt="image of old man">
+                            <img class="front_image" src="./images/Camera.png" alt="image of camera">
+                        </div>
+                        <div class="description">
+                            <h5>photography</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-6">
+                    <div class="category1">
+                        <div style="text-align: center;">
+                            <img class="bg_image" src="./images/sky.png" alt="image of sky">
+                            <img class="front_image" src="./images/VideoCamera.png" alt="icon of video_camera">
+                        </div>
+                        <div class="description">
+                            <h5>video</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-6">
+                    <div class="category1">
+                        <div style="text-align: center;">
+                            <img class="bg_image" src="./images/key.png" alt="image of key">
+                            <img class="front_image" src="./images/MagicWand.png" alt="image of key">
+                        </div>
+                        <div class="description">
+                            <h5>utility</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-6">
+                    <div class="category1">
+                        <div style="text-align: center;">
+                            <img class="bg_image" src="./images/ball.png" alt="image of ball">
+                            <img class="front_image" src="./images/Basketball.png" alt="icon of ball">
+                        </div>
+                        <div class="description sports">
+                            <h5>sport</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-6">
+                    <div class="category1">
+                        <div style="text-align: center;">
+                            <img class="bg_image" src="./images/space_city.png" alt="image of space">
+                            <img class="front_image" src="./images/Planet.png" alt="icon of planet">
+                        </div>
+                        <div class="description">
+                            <h5>virtual worlds</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section5 container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="sec5_header col-md-8 col-sm-12">
+                    <h3>Discover More NFTs</h3>
+                    <p>Explore new trending NFTs</p>
+                </div>
+                <div class="col-md-4 sec5_button">
+                    <button class="btn d-flex justify-content-center align-items-center"><img style="margin-right: 12px;" src="./images/Eye.svg" alt="icon of eye">See All</button>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-md-4 col-12">
+                    <div class="sec5_card">
+                        <div>
+                            <img style="width: 100%;" src="./images/spaceship.png" alt="image of space ship">
+                        </div>
+                        <div class="texts">
+                            <div>
+                                <h5>Distant Galaxy</h5>
+                                <p><img src="./images/prof_picture1.png" alt="profile picture of a girl">MoonDancer</p>
+                            </div>
+                            <div class="bidding">
+                                <div>
+                                    <span>Price</span>
+                                    <p>1.63 ETH</p>
+                                </div>
+                                <div style="text-align: right;">
+                                    <span>Highest Bid</span>
+                                    <p>0.33 wETH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-12">
+                    <div class="sec5_card">
+                        <div>
+                            <img style="width: 100%;" src="./images/sky2.png" alt="image of sky">
+                        </div>
+                        <div class="texts">
+                            <div>
+                                <h5>Life On Edena</h5>
+                                <p><img src="./images/prof_picture2.png" alt="profile picture of a man">NebulaKid</p>
+                            </div>
+                            <div class="bidding">
+                                <div>
+                                    <span>Price</span>
+                                    <p>1.63 ETH</p>
+                                </div>
+                                <div style="text-align: right;">
+                                    <span>Highest Bid</span>
+                                    <p>0.33 wETH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-12">
+                    <div class="sec5_card">
+                        <div>
+                            <img style="width: 100%;" src="./images/astronaut.png" alt="image of an astronaut">
+                        </div>
+                        <div class="texts">
+                            <div>
+                                <h5>AstroFiction</h5>
+                                <p><img src="./images/prof_picture3.png" alt="profile picture of a girl">Spaceone</p>
+                            </div>
+                            <div class="bidding">
+                                <div>
+                                    <span>Price</span>
+                                    <p>1.63 ETH</p>
+                                </div>
+                                <div style="text-align: right;">
+                                    <span>Highest Bid</span>
+                                    <p>0.33 wETH</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 sec5_button1">
+                    <button class="btn d-flex justify-content-center align-items-center"><img style="margin-right: 12px;" src="./images/Eye.svg" alt="icon of eye">See All</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section6 container-fluid">
+        <div class="container-fluid sec6_background">
+            <div class="container">
+                <div>
+                    <div class="row sec6_body">
+                        <div class="column col-md-8 col-12">
+                            <div class="button_like">
+                                <img src="./images/profile_picture7.png" alt="profile picture of a man">
+                                <span>Shroomie</span>
+                            </div>
+                            <h2>Magic Mashrooms</h2>
+                            <div class="nft_button">
+                                <button class="btn btn-light"><img src="./images/Eye.svg" alt="icon of eye"> See NFT</button>
+                            </div>
+                        </div>
+                        <div class="timer col-md-4 col-12">
+                            <p>Auction ends in:</p>
+                            <div style="display: flex; justify-content: space-between;">
+                                <h3>59</h3>
+                                <h4>:</h4>
+                                <h3>59</h3>
+                                <h4>:</h4>
+                                <h3>59</h3>
+                            </div>
+                            <div style="display: flex; justify-content: space-between;">
+                                <p style="width: 53px;">Hours</p>
+                                <p>Minutes</p>
+                                <p>Seconds</p>
+                            </div>
+                        </div>
+                        <div class="nft_button2">
+                            <button class="btn btn-light"><img src="./images/Eye.svg" alt="icon of eye"> See NFT</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section7 container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="sec7_header col-12">
+                    <h3>How it works</h3>
+                    <p>Find out how to get started</p>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-md-4 col-12">
+                    <div class="card1">
+                        <div>
+                            <img src="./images/files.png" alt="icon of files">
+                        </div>
+                        <div>
+                            <h5>Setup Your wallet</h5>
+                            <p>Set up your wallet of choice. Connect it to the Animarket by clicking the wallet icon in the top right corner.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-12">
+                    <div class="card1" style="padding-bottom: 52px;">
+                        <div>
+                            <img src="./images/music_files.png" alt="icon of music files">
+                        </div>
+                        <div>
+                            <h5>Create Collection</h5>
+                            <p>Upload your work and setup your collection. Add a description, social links and floor price.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-12">
+                    <div class="card1">
+                        <div>
+                            <img src="./images/market_icon.png" alt="icon of shopping cart">
+                        </div>
+                        <div>
+                            <h5>Start Earning</h5>
+                            <p>Choose between auctions and fixed-price listings. Start earning by selling your NFTs or trading others.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section8 container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="sec8_body">
+                        <div>
+                            <img src="./images/astronaut_reading.png" alt="astronaut reading a newspaper">
+                        </div>
+                        <div style="width: 425px;">
+                            <h3>Join our weekly digest</h3>
+                            <p>Get exclusive promotions & updates straight to your inbox.</p>
+                            <div class="input_div">
+                                <input type="email" placeholder="Enter your email here">
+                                <button><img src="./images/EnvelopeSimple.svg" alt="icon of envelope">Subscribe</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="footer_body col-md-4 col-12">
+                    <div class="d-flex">
+                        <img src="./images/Storefront.svg" alt="storefront">
+                        <h5>NFT Marketplace</h5>
+                    </div>
+                    <p style="width: 238px;">NFT marketplace UI created with Anima for Figma.</p>
+                    <p>Join our community</p>
+                    <div>
+                        <span><img src="./images/DiscordLogo.svg" alt="discord logo"></span>
+                        <span><img src="./images/YoutubeLogo.svg" alt="youtube logo"></span>
+                        <span><img src="./images/TwitterLogo.svg" alt="twitter logo"></span>
+                        <span><img src="./images/InstagramLogo.svg" alt="instagram logo"></span>
+                    </div>
+                </div>
+
+                <div class="footer_body col-md-3 col-12">
+                    <h5>Explore</h5>
+                    <p>Marketplace</p>
+                    <p>Rankings</p>
+                    <p>Connect a wallet</p>
+                </div>
+
+                <div class="footer_body col-md-5 col-12">
+                    <h5>Join our weekly digest</h5>
+                    <p style="width: 330px;">Get exclusive promotions & updates straight to your inbox.</p>
+                    <div class="footer_button">
+                        <input type="email" placeholder="Enter your email here">
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <p class="ending">Ⓒ NFT Market. Use this template freely.</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
