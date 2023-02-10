@@ -87,7 +87,158 @@ body{
     .sec3_button1 > button{
         width: 100%;
     }
+    .description h5{
+        font-size: 16px !important;
+    }
+    .front_image{
+        width: 80px;
+        height: 80px;
+        left: 34px !important;
+        top: 31px !important;
+    }
+    .category1{
+        margin-top: 20px !important;
+    }
+    .sports{
+        padding-bottom: 47px !important;
+    }
+    .sec4_title h3{
+        font-size: 28px !important;
+    }
+
+    .sec5_header h3{
+        font-size: 28px !important;
+    }
+    .sec5_header p{
+        font-size: 16px !important;
+    }
+    .sec5_card{
+        margin-top: 20px; 
+    }
+    .sec5_button {
+        display: none;
+    }
+    .sec5_button1{
+        display: block !important;
+    }
+    .sec5_button1 button{
+        width: 100%;
+        margin-top: 40px;
+    }
+    .sec6_body{
+        display: inline-block !important;
+        margin-top: 120px !important;
+    }
+    .column{
+        justify-content: unset !important;
+    }
+    .column h2{
+        font-size: 38px !important;
+        margin-top: 30px;
+    }
+    .timer{
+        width: 100% !important;
+    }
+    .nft_button{
+        display: none;
+    }
+    .nft_button2{
+        display: block !important;
+        margin-top: 20px;
+        width: 100% !important;
+    }
+    .nft_button2 button{
+        width: 100% !important;
+    }
+
+    .sec7_header h3{
+        font-size: 28px !important;
+    }
+    .sec7_header p{
+        font-size: 16px !important;
+    }
+    .card1{
+        display: flex !important;
+        padding: 20px !important;
+        margin-bottom: 20px !important;
+    }
+    .card1 div img{
+        width: 100px;
+        height: 100px;
+        margin-top: 8px !important;
+    }
+    .card1 div h5{
+        font-size: 16px;
+        text-align: left;
+        margin-left: 20px;
+    }
+    .card1 div p{
+        font-size: 12px;
+        width: 155px;
+        text-align: left;
+        margin-left: 20px;
+    }
+
+    .sec8_body{
+        background: none !important;
+        padding: 0px !important;
+        display: unset !important;
+    }
+    .sec8_body div img{
+        width: 315px;
+        height: 255px;
+    }
+    .sec8_body div{
+        padding: 0px !important;
+        width: unset !important;
+    }
+    .sec8_body div h3{
+        font-size: 29px !important;
+    }
+    .sec8_body div p{
+        font-size: 16px !important;
+    }
+    .input_div{
+        position: unset !important;
+    }
+    .input_div input{
+        width: 100% !important;
+        padding: 12px 20px !important;
+    }
+    .input_div button{
+        width: 100% !important;
+        position: unset !important;
+        margin-top: 16px !important;
+        padding: 12px 102px !important;
+    }
+    .input_div button img{
+        width: 20px;
+        height: 100%;
+    }
+    .footer_body p{
+        width: 100% !important;
+    }
+    .footer_body h5{
+        margin-top: 30px;
+    }
+    .footer_body div img{
+        margin-top: 20px;
+    }
+    .footer_button{
+        position: unset;
+    }
+    .footer_button input{
+        width: 100% !important;
+        padding: 12px 20px !important;
+    }
+    .footer_button button{
+        width: 100% !important;
+        position: unset !important;
+        margin-top: 16px !important;
+        padding: 12px 102px !important;
+    }
 }
+
 
 
 
@@ -424,4 +575,472 @@ body{
     font-size: 16px;
     line-height: 140%;
     color: #FFFFFF;
+}
+
+.category1{
+    position: relative;
+    background: #3B3B3B;
+    padding: 0px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.bg_image{
+    filter: blur(7.5px);
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+.front_image{
+    position: absolute;
+    left: 70px;
+    top: 70px;
+}
+
+.description h5{
+    margin: 0px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.description{
+    padding: 20px 30px 25px 30px;
+}
+.sec4_title h3{
+    margin-top: 160px;
+    margin-bottom: 40px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 120%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.section5{
+    margin-top: 160px;
+}
+.sec5_header h3{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 120%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.sec5_header p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.sec5_button button{
+    margin-top: 31px;
+    margin-left: auto;
+    border: 2px solid #A259FF;
+    border-radius: 20px;
+    padding: 19px 50px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.sec5_card{
+    background: #3B3B3B;
+    border-radius: 20px;
+    padding: 0px;
+    
+}
+.texts{
+    padding: 20px 30px 25px 30px;
+}
+.texts div h5{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+.texts div p{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-bottom: 27px;
+}
+.texts div p img{
+    margin-right: 12px;
+}
+
+.bidding{
+    display: flex;
+    justify-content: space-between;
+}
+.bidding div span{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 110%;
+    color: #858584;
+}
+.bidding div p{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+
+.sec5_button1 button{
+    border: 2px solid #A259FF;
+    border-radius: 20px;
+    padding: 19px 50px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.sec5_button1{
+    display: none;
+}
+
+.section6{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-image: url(./images/big_mushroom.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 0px;
+}
+
+.sec6_background{
+    width: 100%;
+    background: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, #A259FF 100%);
+    height: 640px;
+}
+.sec6_body{
+    height: 580px; 
+    display: flex; 
+    align-items: flex-end;
+}
+.column{
+    height: 220px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.button_like{
+    width: 160px;
+    background: #3B3B3B;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.button_like img{
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+}
+.button_like span{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.column h2{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 51px;
+    line-height: 110%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.nft_button button{
+    width: 198px;
+    padding: 19px 50px;
+    border-radius: 20px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #2B2B2B;
+}
+
+.timer{
+    margin-left: auto;
+    width: 295px;
+    height: 144px;
+    background: rgba(59, 59, 59, 0.5);
+    border-radius: 20px;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.timer div h3{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 120%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.timer div h4{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 140%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+
+}
+
+.timer p{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 110%;
+    color: #FFFFFF;
+}
+.timer div p{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 110%;
+    color: #FFFFFF;
+}
+
+.nft_button2{
+    display: none;
+}
+.nft_button2 button{
+    width: 198px;
+    padding: 19px 50px;
+    border-radius: 20px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #2B2B2B;
+}
+
+.section7{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.sec7_header h3{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 120%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.sec7_header p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.card1{
+    padding: 10px 30px 30px 30px;
+    background: #3B3B3B;
+    border-radius: 20px;
+    margin: 0px;
+}
+
+.card1 h5{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.card1 p{
+    width: 270px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.section8{
+    margin-bottom: 80px;
+}
+.sec8_body{
+    padding: 60px;
+    background: #3B3B3B;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.sec8_body div h3{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 120%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-top: 19px;
+}
+.sec8_body div p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.input_div{
+    position: relative;
+    margin-top: 40px;
+}
+.input_div input{
+    padding: 19px 20px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    width: 100%;
+}
+.input_div button{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+
+    width: 211px;
+    background: #A259FF;
+    border-radius: 20px;
+    border: none;
+    padding: 19px 50px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    display: flex;
+}
+.input_div button img {
+    margin-right: 12px;
+}
+
+footer{
+    background: #3B3B3B;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.footer_body h5, div h5{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.footer_body p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #CCCCCC;
+}
+
+.footer_button{
+    position: relative;
+}
+.footer_button input{
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 19px 20px;
+}
+.footer_button button{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+
+    width: 179px;
+    background: #A259FF;
+    border-radius: 20px;
+    padding: 19px 50px;
+    border: none;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+hr{
+    border: 1px solid #858584;
+    margin-top: 30px;
+}
+
+.ending{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 110%;
+    color: #CCCCCC;
 }
