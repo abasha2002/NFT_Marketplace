@@ -18,6 +18,7 @@ body{
 @media only screen and (max-width: 992px) {
     h1{
         font-size: 28px !important;
+        margin-top: 40px !important;
     }
     .cont2{
         display: none !important;
@@ -49,14 +50,29 @@ body{
     .sec2_header p{
         font-size: 16px !important;
     }
+    .section3{
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+        margin-top: 82px !important;
+    }
     .sec3_header h3{
         font-size: 28px !important;
     }
     .sec3_header p{
         font-size: 16px !important;
     }
+    .sec3_main_div{
+        margin-top: 20px !important;
+    }
     .sec3_button{
         display: none !important;
+    }
+    .profiles{
+        padding-top: 0px !important;
+        margin-top: unset !important;
+    }
+    .prof1{
+        margin-top: unset !important;
     }
     .mushrooms, .people{
         display: none !important;
@@ -104,10 +120,14 @@ body{
     }
     .sec4_title h3{
         font-size: 28px !important;
+        margin-top: 80px !important;
     }
-
+    .section5{
+        margin-top: 80px !important;
+    }
     .sec5_header h3{
         font-size: 28px !important;
+        margin-top: 0px !important;
     }
     .sec5_header p{
         font-size: 16px !important;
@@ -124,6 +144,9 @@ body{
     .sec5_button1 button{
         width: 100%;
         margin-top: 40px;
+    }
+    .section6{
+        background-image: url(./images/mobile_background.png) !important;
     }
     .sec6_body{
         display: inline-block !important;
