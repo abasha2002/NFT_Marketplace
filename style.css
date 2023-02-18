@@ -103,6 +103,10 @@ body{
     .sec3_button1 > button{
         width: 100%;
     }
+    .number{
+        top: 13px !important;
+        left: 12px !important;
+    }
     .description h5{
         font-size: 16px !important;
     }
@@ -972,7 +976,7 @@ body{
     margin-top: 40px;
 }
 .input_div input{
-    padding: 19px 20px;
+    padding: 19px 220px 19px 20px;
     background: #FFFFFF;
     border-radius: 20px;
     width: 100%;
@@ -1031,7 +1035,7 @@ footer{
     width: 100%;
     background: #FFFFFF;
     border-radius: 20px;
-    padding: 19px 20px;
+    padding: 19px 200px 19px 20px;
 }
 .footer_button button{
     position: absolute;
