@@ -44,6 +44,9 @@ body{
     .section2{
         margin-top: 80px !important;
     }
+    .sec2_container{
+        padding-right: 0px !important;
+    }
     .sec2_header h3{
         font-size: 28px !important;
     }
