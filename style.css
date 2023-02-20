@@ -624,17 +624,68 @@ body{
     padding: 0px;
     border-radius: 20px;
     margin-top: 30px;
+    overflow: hidden;
 }
-
-.bg_image{
+.first_category{
+    height: 240px;
+    background-image: url(./images/whales.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     filter: blur(7.5px);
-    width: 100%;
-    border-radius: 20px 20px 0px 0px;
+}
+.second_category{
+    height: 240px;
+    background-image: url(./images/monkey.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(7.5px);
+}
+.third_category{
+    height: 240px;
+    background-image: url(./images/guitar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(7.5px);
+}
+.fourth_category{
+    height: 240px;
+    background-image: url(./images/old_man.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(7.5px);
+}
+.fifth_category{
+    height: 240px;
+    background-image: url(./images/sky.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(7.5px);
+}
+.sixth_category{
+    height: 240px;
+    background-image: url(./images/key.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(7.5px);
+}
+.seventh_category{
+    height: 240px;
+    background-image: url(./images/ball.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(7.5px);
+}
+.eighth_category{
+    height: 240px;
+    background-image: url(./images/space_city.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(7.5px);
 }
 .front_image{
     position: absolute;
-    left: 70px;
-    top: 70px;
+    left: 29%;
+    top: 25%;
 }
 
 .description h5{
