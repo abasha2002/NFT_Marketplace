@@ -47,6 +47,10 @@ body{
     .sec2_container{
         padding-right: 0px !important;
     }
+    .MrFox{
+        display: flex;
+        justify-content: center;
+    }
     .sec2_header h3{
         font-size: 28px !important;
     }
@@ -156,8 +160,12 @@ body{
         background-image: url(./images/mobile_background.png) !important;
     }
     .sec6_body{
-        display: inline-block !important;
+        display: flex;
+        justify-content: center;
         margin-top: 120px !important;
+    }
+    .sec6_content{
+        display: unset !important;
     }
     .column{
         justify-content: unset !important;
@@ -244,6 +252,9 @@ body{
     .input_div button img{
         width: 20px;
         height: 100%;
+    }
+    .astro{
+        width: 100% !important;
     }
     .footer_body p{
         width: 100% !important;
@@ -775,6 +786,11 @@ body{
 .sec6_body{
     height: 580px; 
     display: flex; 
+    align-items: flex-end;
+}
+.sec6_content{
+    width: 100%;
+    display: flex;
     align-items: flex-end;
 }
 .column{
