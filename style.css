@@ -302,6 +302,30 @@ body{
         margin-top: 16px !important;
         padding: 12px 102px !important;
     }
+
+    .reg_title > h2{
+        margin-top: 30px !important;
+        font-size: 38px !important;
+    }
+    .reg_title > p{
+        font-size: 16px !important;
+    }
+    .form{
+        width: 100%;
+    }
+    .form > div > input{
+        width: 100% !important;
+    }
+    .submit_btn{
+        margin-bottom: 40px;
+    }
+    .reg_image{
+        height: 232px !important;
+    }
+    .reg_inputs{
+        display: flex;
+        justify-content: center;
+    }
 }
 
 
@@ -344,6 +368,14 @@ body{
 
 .nav_button > img{
     margin-right: 12px;
+}
+.nav_button > a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.nav_button > a:hover{
+    color: black;
+    transition-duration: .3s;
 }
 
 .content > div > h1{
@@ -1164,4 +1196,68 @@ hr{
     font-size: 12px;
     line-height: 110%;
     color: #CCCCCC;
+}
+
+.registration{
+    padding: 0px;
+}
+.reg_title > h2{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 51px;
+    line-height: 110%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.reg_title > p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.form > div > input{
+    width: 330px;
+    background: #FFFFFF;
+    border: 1px solid #858584;
+    border-radius: 20px;
+    padding: 12px 20px 12px 52px;
+}
+
+.input1{
+    background-image: url(./images/User_icon.svg) !important;
+    background-repeat: no-repeat !important;
+    background-position-y: center !important;
+    background-position-x: 20px !important;
+}
+.input2{
+    background-image: url(./images/EnvelopeSimple_icon.svg) !important;
+    background-repeat: no-repeat !important;
+    background-position-y: center !important;
+    background-position-x: 20px !important;
+}
+.input3{
+    background-image: url(./images/LockKey.svg) !important;
+    background-repeat: no-repeat !important;
+    background-position-y: center !important;
+    background-position-x: 20px !important;
+}
+
+.submit_btn{
+    background: #A259FF !important;
+    padding: 12px 0px !important;
+    margin-top: 30px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
 }
