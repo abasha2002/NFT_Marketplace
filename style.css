@@ -35,6 +35,9 @@ body{
     .followers{
         display: none !important;
     }
+    .giff > img{
+        height: unset !important;
+    }
     .for_mobile{
         display: inline !important;
     }
@@ -96,6 +99,7 @@ body{
         width: 60px;
         height: 60px;
         margin-right: 20px;
+        margin-top: 20px;
     }
     .prof{
         display: none !important;
@@ -326,37 +330,30 @@ body{
         display: flex;
         justify-content: center;
     }
+    .navbar-nav{
+        align-items: unset !important;
+    }
 }
 
-
-
-
-.cont1 > img{
-    margin-right: 12px;
+ul{
+    gap: 20px !important;
+    margin-left: auto;
 }
-.cont1 > div > p{
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 16px;
-    line-height: 140%;
-    color: #FFFFFF;
-}
-
-.cont2 > a{
+li > a{
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 140%;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
     text-decoration: none;
 }
 
 .nav_button{
     background-color:#A259FF;
     border-radius: 20px;
-    padding: 0px 30px;
+    padding: 10px 30px;
+    border:none;
 
     font-family: 'Work Sans';
     font-style: normal;
@@ -372,10 +369,6 @@ body{
 .nav_button > a{
     color: #FFFFFF;
     text-decoration: none;
-}
-.nav_button > a:hover{
-    color: black;
-    transition-duration: .3s;
 }
 
 .content > div > h1{
@@ -459,6 +452,7 @@ body{
     padding: 19px 50px;
     border-radius: 20px;
     margin-top: 30px;
+    border: none;
 
     font-family: 'Work Sans';
     font-style: normal;
@@ -588,6 +582,7 @@ body{
     border: 2px solid #A259FF;
     border-radius: 20px;
     padding: 19px 50px;
+    background-color: inherit;
 
     font-family: 'Work Sans';
     font-style: normal;
@@ -665,6 +660,7 @@ body{
     border: 2px solid #A259FF;
     border-radius: 20px;
     padding: 19px 50px;
+    background-color: inherit;
 
     font-family: 'Work Sans';
     font-style: normal;
