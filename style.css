@@ -115,8 +115,15 @@ body{
         width: 100%;
     }
     .number{
+        display: none !important;
+    }
+    .number1{
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        position: absolute !important;
         top: 13px !important;
-        left: 12px !important;
+        left: -8px !important;
     }
     .description h5{
         font-size: 16px !important;
@@ -324,7 +331,7 @@ body{
         margin-bottom: 40px;
     }
     .reg_image{
-        height: 232px !important;
+        height: unset !important;
     }
     .reg_inputs{
         display: flex;
@@ -335,6 +342,14 @@ body{
     }
 }
 
+.navbar-brand{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
 ul{
     gap: 20px !important;
     margin-left: auto;
@@ -620,6 +635,22 @@ li > a{
     line-height: 140%;
     color: #858584;
 }
+.number1{
+    display: none;
+    width: 30px;
+    height: 30px;
+    background: #2B2B2B;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.number1 > span{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #858584;
+}
 .profile_name{
     margin-top: 20px;
 }
@@ -793,6 +824,7 @@ li > a{
     border: 2px solid #A259FF;
     border-radius: 20px;
     padding: 19px 50px;
+    background-color: inherit;
 
     font-family: 'Work Sans';
     font-style: normal;
@@ -1132,7 +1164,12 @@ footer{
     padding-top: 40px;
     padding-bottom: 40px;
 }
-.footer_body h5, div h5{
+.footer_body{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer_body a, div a{
     font-family: 'Space Mono';
     font-style: normal;
     font-weight: 700;
@@ -1141,13 +1178,21 @@ footer{
     text-transform: capitalize;
     color: #FFFFFF;
 }
-.footer_body p{
+.footer_body a{
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
     color: #CCCCCC;
+}
+.footer_body h5{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: #FFFFFF;
 }
 
 .footer_button{
