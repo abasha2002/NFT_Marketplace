@@ -358,7 +358,7 @@ li > a{
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 16px !important;
     line-height: 140%;
     color: #FFFFFF !important;
     text-decoration: none;
@@ -369,13 +369,6 @@ li > a{
     border-radius: 20px;
     padding: 10px 30px;
     border:none;
-
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 140%;
-    color: #FFFFFF;
 }
 
 .nav_button > img{
@@ -384,6 +377,12 @@ li > a{
 .nav_button > a{
     color: #FFFFFF;
     text-decoration: none;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px ;
+    line-height: 140%;
+    color: #FFFFFF;
 }
 
 .content > div > h1{
