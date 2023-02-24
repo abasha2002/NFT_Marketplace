@@ -129,10 +129,13 @@ body{
         font-size: 16px !important;
     }
     .front_image{
+        left: 50%;
+        top: 15% !important; 
+        transform: translateX(-50%);
+    }
+    .front_image > img{
         width: 80px !important;
         height: 80px !important;
-        left: 34px !important;
-        top: 31px !important;
     }
     .category1{
         margin-top: 20px !important;
@@ -339,6 +342,8 @@ body{
     }
     .navbar-nav{
         align-items: unset !important;
+        margin-top: 20px !important;
+        gap: 15px !important;
     }
 }
 
@@ -671,6 +676,7 @@ li > a{
     line-height: 140%;
     color: #FFFFFF;
     margin-bottom: 0px;
+    text-align: left;
 }
 .profile_info > p > span{
     font-family: 'Work Sans';
@@ -766,10 +772,14 @@ li > a{
 }
 .front_image{
     position: absolute;
-    left: 29%;
-    top: 25%;
+    left: 50%;
+    top: 22%; 
+    transform: translateX(-50%);
 }
-
+.front_image > img{
+    width: 100px;
+    height: 100px;
+}
 .description h5{
     margin: 0px;
     font-family: 'Work Sans';
