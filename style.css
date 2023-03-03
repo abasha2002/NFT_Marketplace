@@ -635,6 +635,9 @@ li > a{
     padding-top: 80px;
     padding-bottom: 80px;
 }
+.profile_page:hover{
+    text-decoration: none;
+}
 .sec3_header h3{
     font-family: 'Work Sans';
     font-style: normal;
