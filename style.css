@@ -386,11 +386,11 @@ body{
     .NFT_buttons1 button {
         width: 100% !important;
     }
-    .NFT_buttons1 > img{
-        margin-right: 10px;
-    }
     .NFT_button{
         margin: 0 !important;
+    }
+    .icons{
+        margin-right: 10px !important;
     }
     .owned h5{
         font-size: 16px !important;
