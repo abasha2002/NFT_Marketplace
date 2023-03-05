@@ -404,6 +404,31 @@ body{
     .extra_cards{
         display: none;
     }
+    .SpaceShip{
+        display: none;
+    }
+    .SpaceShipM{
+        display: inline-block !important;
+        width: 100%;
+    }
+    .about_wallet{
+        width: 100%;
+        margin: 0px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+        margin-bottom: 40px !important;
+
+    }
+    .about_wallet h1{
+        font-size: 38px !important;
+        width: 315px !important;
+    }
+    .about_wallet p{
+        font-size: 16px !important; 
+        width: 315px !important;
+    }
 }
 
 .navbar-brand{
@@ -1530,4 +1555,52 @@ footer{
 }
 .extra_cards{
     margin-top: 30px;
+}
+
+.about_wallet{
+    margin-left: 60px;
+}
+.about_wallet h1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 51px;
+    line-height: 110%;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.about_wallet p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    color: #FFFFFF;
+    width: 460px;
+    margin-bottom: 40px;
+}
+.wallet_buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.wallet_buttons button{
+    width: 320px;
+    background: #3B3B3B;
+    border: 1px solid #A259FF;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 16px 20px 16px 40px;
+}
+.wallet_buttons h5{
+    margin: 0px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-left: 20px;
 }
