@@ -16,6 +16,7 @@ body{
 }
 
 @media only screen and (max-width: 992px) {
+    
     h1{
         font-size: 28px !important;
         margin-top: 40px !important;
@@ -1941,7 +1942,7 @@ footer{
 
     background-image: url(./images/MagnifyingGlass.svg);
     background-repeat: no-repeat;
-    background-position-x: 95%;
+    background-position-x: calc(100% - 20px);
     background-position-y: center;
 }
 
