@@ -15,7 +15,16 @@ body{
     background-color: #2B2B2B;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 320px){
+    section{
+        padding: 0px !important;
+    }
+    p, h1, h2, h3, h4, h5, h6, span{
+        width: fit-content !important;
+    }
+} 
+
+@media only screen and (max-width: 768px) {
     
     h1{
         font-size: 28px !important;
@@ -512,6 +521,9 @@ body{
     }
     .smiley1{
         display: inline-block !important;
+    }
+    .footer_boy{
+        width: fit-content !important;
     }
 }
 
@@ -1421,6 +1433,10 @@ footer{
 
 .registration{
     padding: 0px;
+}
+.registration_div{
+    width: 100% !important;
+    margin: 0;
 }
 .reg_title > h2{
     font-family: 'Work Sans';
