@@ -65,10 +65,18 @@ body{
         padding-top: 20px !important;
         padding-bottom: 20px !important;
     }
+    .stats span:nth-child(2){
+        margin-right: 20px !important;
+    }
+    .stats span:nth-child(1){
+        margin-left: 10px !important;
+    }
 } 
 
 @media only screen and (max-width: 768px) {
-    
+    header span{
+        padding-left: 10px !important;
+    }
     h1{
         font-size: 28px !important;
         margin-top: 40px !important;
@@ -106,6 +114,7 @@ body{
     .MrFox{
         display: flex;
         justify-content: center;
+        padding-left: 0 !important;
     }
     .sec2_header h3{
         font-size: 28px !important;
@@ -567,6 +576,49 @@ body{
     }
     .footer_boy{
         width: fit-content !important;
+    }
+    .ranking_section1{
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .short{
+        display: inline !important;
+    }
+    .long{
+        display: none !important;
+    }
+    .day{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .stats span{
+        font-size: 12px !important;
+    }
+    .ranking_profiles h5{
+        font-size: 16px !important;
+    }
+    .ranking_profiles p{
+        font-size: 12px !important;
+    }
+    .ranking_profiles img{
+        width: 24px !important;
+        height: 24px !important;
+    }
+    .ranking_number div{
+        background-color: inherit !important;
+        text-align: left !important;
+        margin-left: 10px !important;
+    }
+    .ranking_number{
+        padding: 0 !important;
+        gap: 10px !important;
+    }
+    .stats div{
+        padding: 0 !important;
+        gap: 10px !important;
+    }
+    .stats span:nth-child(1){
+        margin-left: 10px !important;
     }
 }
 
@@ -2019,4 +2071,80 @@ footer{
 }
 .smiley1{
     display: none;
+}
+
+.ranking_section1{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.short{
+    display: none;
+}
+
+.ranking_section3{
+    margin: 40px 0px;
+}
+.stats{
+    border: 1px solid #3B3B3B;
+    border-radius: 20px;
+    background-color: inherit;
+    padding: 12px 0px;
+}
+.stats span{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #858584;
+}
+.stats span:nth-child(1){
+    width: 30px;
+    text-align: center;
+}
+.ranking_pic{
+    width: 60px;
+    height: 60px;
+}
+.ranking_profiles{
+    background-color: #3B3B3B;
+    padding: 12px 0px;
+    border-radius: 20px;
+}
+.ranking_profiles p{
+    margin: 0px;
+}
+.ranking_profiles span{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #858584;
+}
+.ranking_profiles h5{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin: 0px;
+}
+.change{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #00AC4F;
+}
+.nfts p{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
 }
